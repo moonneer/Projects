@@ -1,6 +1,6 @@
 from image import *
 
-# Write your green_screen function here
+# Green screen function:
 def green_screen(img1, img2):
     for row in range(height(img1)):
         for column in range(width(img1)):
